@@ -8,7 +8,7 @@ createServer((request, response) => {
     data.addresses = deleteAddress(data.addresses, urlParts[2]);
     redirect(response, '/');
   } else if (urlParts.includes('new')) {
-    send(response, getForm());
+    send(response, getForm(data.addresses));
   } else if (urlParts.includes('edit')) {
     send(response, getForm(data.addresses, urlParts[2]));
   } else {
@@ -31,4 +31,8 @@ function redirect(response, to) {
 function deleteAddress(addresses, id) {
     const filteredAddresses = addresses.filter((address)=> address.id !== +id);
     return filteredAddresses;
+}
+
+function newAddress() {
+
 }
