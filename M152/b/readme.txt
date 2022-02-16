@@ -52,6 +52,10 @@ Studieren Sie, was Mockups und Wireframes sind und schreiben Sie mit eigenen Wor
 
 ### Wireframe anwenden
 
+Ein Wireframe ist ein schwarz/weisses Modell einer Webseite, welches die Struktur und Funktionen zeigen soll.
+Ein Mockup ist eine nicht funktionstüchtige visuelle Darstellung der Webseite, welche zeigen soll, wie das Endprodukt aussehen wird.
+Wireframe zeigen das Skelett der Webseite, das Mockup hingegen die fertige Webseite mit Bildern.
+
 3.) ca. 60-80 min
 
 Erstellen Sie eine Planung Ihrer Webseite mit einem Wireframe-Tool (oder skizzieren Sie von Hand / dann scannen oder fotografieren) und stellen Sie die entstanden Bilder/Grafiken/Scans in Ihrer neuen Webseite dar.
