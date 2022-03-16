@@ -1,0 +1,38 @@
+
+#titelbeispiel { color: #00008b;
+    font-family: 'Raleway',sans-serif;
+    font-size: 62px; 
+    font-weight: 800; 
+    line-height: 72px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+#untertitelbeispiel { 
+    color: #00008b;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800; 
+    line-height: 36px; 
+    margin: 0 0 16px; 
+    text-align: left; 
+}
+
+#zwischentitel {
+    color: #00008b; 
+    font-family:"Helvetica Neue",Arial,sans-serif; 
+    font-size: 16px; 
+    font-weight: 500; 
+    line-height: 28px; 
+    margin: 0 0 12px; 
+}
+
+#fliesstext {
+    color: #000000; 
+    font-family:"Helvetica Neue",Arial,sans-serif; 
+    font-size: 12px; 
+    font-weight: 500; 
+    line-height: 22px; 
+    margin: 0 0 12px; 
+}
