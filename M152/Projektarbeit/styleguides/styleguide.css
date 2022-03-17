@@ -5,7 +5,7 @@ h4 {text-align: center;margin: -35px 0 25px}
 p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 0px; text-align: justify; text-justify: inter-word; }
 
 #titelbeispiel { 
-    color: #00008b;
+    color: #dc0000;
     font-family: 'Raleway',sans-serif;
     font-size: 62px; 
     font-weight: 800; 
@@ -16,7 +16,7 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
 }
 
 #untertitelbeispiel { 
-    color: #00008b;
+    color: #dc0000;
     font-family: 'Raleway',sans-serif;
     font-size: 30px;
     font-weight: 800; 
@@ -26,7 +26,7 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
 }
 
 #zwischentitel {
-    color: #00008b; 
+    color: #dc0000; 
     font-family:"Helvetica Neue",Arial,sans-serif; 
     font-size: 16px; 
     font-weight: 500; 
@@ -51,9 +51,30 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
 }
 
 #navigationsmenu {
-    color: #b0c4de; 
+    color: #706f6f; 
     font-family:"Helvetica Neue",Arial,sans-serif; 
     font-size: 16px; 
     font-weight: 500;
     font-weight: bold;
+}
+
+.box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.red {
+    background-color: #dc0000;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.grey {
+    background-color: #706f6f;
 }
