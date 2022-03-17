@@ -4,13 +4,14 @@ h3 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-we
 h4 {text-align: center;margin: -35px 0 25px}
 p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 0px; text-align: justify; text-justify: inter-word; }
 
-#titelbeispiel { color: #00008b;
+#titelbeispiel { 
+    color: #00008b;
     font-family: 'Raleway',sans-serif;
     font-size: 62px; 
     font-weight: 800; 
     line-height: 72px; 
     margin: 0 0 24px; 
-    text-align: center; 
+    text-align: left; 
     text-transform: uppercase;
 }
 
@@ -30,7 +31,8 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     font-size: 16px; 
     font-weight: 500; 
     line-height: 28px; 
-    margin: 0 0 12px; 
+    margin: 0 0 12px;
+    font-weight: bold;
 }
 
 #fliesstext {
@@ -38,8 +40,7 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     font-family:"Helvetica Neue",Arial,sans-serif; 
     font-size: 12px; 
     font-weight: 500; 
-    line-height: 22px; 
-    margin: 0 0 12px; 
+    line-height: 18px;  
 }
 
 #bildunterschriften {
@@ -47,4 +48,12 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
+}
+
+#navigationsmenu {
+    color: #b0c4de; 
+    font-family:"Helvetica Neue",Arial,sans-serif; 
+    font-size: 16px; 
+    font-weight: 500;
+    font-weight: bold;
 }
