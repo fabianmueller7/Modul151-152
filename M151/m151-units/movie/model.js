@@ -2,23 +2,51 @@ import mysql from "mysql2/promise";
 
 const connection = await mysql.createConnection({ 
     host: "127.0.0.1",   
-    user: "vmadmin",   
+    user: "root",   
     password: "sml12345", 
     database: "movie-db", 
 });
 
-await connection.connect() ;
+await connection.connect();
 
 export async function getAll() {
     const query = 'SELECT * FROM Movies';
     const [data]  = await connection.query(query);
     return data;
 }
-async function insert(movie) { TODO }
-async function update(movie) { TODO }
-export async function get(id) { TODO }
-export async function remove(id) {  TODO }
-export function save(movie) {  TODO }
+async function insert(movie) { 
+    const query = 'Insert into movies (Movies.title, Movies.year) VALUES ('+ movie.title +','+ movie.year+')';
+    const [data]  = await connection.query(query);
+    return data;
+}
+
+async function update(movie) {
+    const query = 'Update movies set movies.title='+movie.title+', movies.year=' + movieS.year + 'WHERE movies.id=' + movie.id;
+    const [data]  = await connection.query(query);
+    return data;
+}
+export async function get(id) { 
+    const query = 'SELECT movies.id FROM Movies Where Movies.id=' + id;
+    const [data]  = await connection.query(query);
+    return data;
+}
+export async function remove(id) { 
+    const query = 'DELETE FROM Movies WHERE movies.id='+id;
+    const [data]  = await connection.query(query);
+    
+}
+export async function save(movie) {
+    if(movie.id   ===   "" ) {
+        const query = 'Insert into movies (Movies.title, Movies.year) VALUES ('+ movie.title +','+ movie.year+')';
+        const [data]  = await connection.query(query);
+        return data;
+    } else {
+        const query = 'Update movies set movies.title='+movie.title+', movies.year=' + movieS.year + 'WHERE movies.id=' + movie.id;
+        const [data]  = await connection.query(query);
+        return data;
+    }
+    return data;
+}
 
 
 /*
