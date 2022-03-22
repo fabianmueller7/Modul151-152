@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styleguide.css">
     <title>Styleguides</title>
 </head>
+
 <body>
     <div>
         <div>
@@ -41,7 +43,8 @@
                     <h3>Untertitel</h3>
                     <p>Untertitel sind im gleichen Style wie Titel gehalten.</p>
                     <p>Jedoch sind sie kleiner und sind links anliegend, so dass sie Themen abgrenzen können.</p>
-                    <p>Dieser Titel dient zum Beispiel als Artikeltitel. Es kann mehrere von diesen Titeln auf einer Seite geben.</p>
+                    <p>Dieser Titel dient zum Beispiel als Artikeltitel. Es kann mehrere von diesen Titeln auf einer
+                        Seite geben.</p>
                     <p id="untertitelbeispiel">Beispiel</p>
                     <pre><code>
                         #untertitelbeispiel { 
@@ -57,8 +60,9 @@
                     <br>
                 </div>
                 <div>
-                    <h3>Zwischentitel</h3>                
-                    <p>Zwischentitel sind im gleichen Style wie andere Titel, jedoch sollen sie nicht Primär die Aufmerksamkeit auf sich ziehen.</p>
+                    <h3>Zwischentitel</h3>
+                    <p>Zwischentitel sind im gleichen Style wie andere Titel, jedoch sollen sie nicht Primär die
+                        Aufmerksamkeit auf sich ziehen.</p>
                     <p>Zwischentitel dienen dazu Textblöcke abzugrenzen.</p>
                     <p id="zwischentitel">Beispiel</p>
                     <pre><code>
@@ -77,7 +81,8 @@
                 <div>
                     <h3>Fliesstext</h3>
                     <p>Fliesstext soll einfach leserlich sein und eine "passende" Grösse habe.</p>
-                    <p>Er muss klein sein, um die Seite nicht zu überfüllen, jedoch nicht zu klein um schwer lesbar zu sein.</p>
+                    <p>Er muss klein sein, um die Seite nicht zu überfüllen, jedoch nicht zu klein um schwer lesbar zu
+                        sein.</p>
                     <p id="fliesstext">Beispiel</p>
                     <pre><code>
                         #fliesstext {
@@ -109,7 +114,8 @@
                     <h3>Navigationsmenu</h3>
                     <p>Die Naviagion ist in der gleichen Schriftart, wie die Titel.</p>
                     <p>Jedoch hat die Navigation keine festen abstände.</p>
-                    <p>Dazu ist die Farbe der Navigation dünkler als die der Titel, um sie von den Titel abzugrenzen.</p>
+                    <p>Dazu ist die Farbe der Navigation dünkler als die der Titel, um sie von den Titel abzugrenzen.
+                    </p>
                     <p id="navigationsmenu">Beispiel</p>
                     <pre><code>
                         #navigationsmenu {
@@ -125,9 +131,10 @@
                 <div>
                     <h3>Generell</h3>
                     <p>Generell gilt, die Schrift soll modern und leicht Leserlich sein.</p>
-                    <p>Mit hilfe von Farben, Grössen und Schriftarten werden die Textsorten gruppiert und erleichtern somit dem User den Überblick.</p>
+                    <p>Mit hilfe von Farben, Grössen und Schriftarten werden die Textsorten gruppiert und erleichtern
+                        somit dem User den Überblick.</p>
                     <br>
-                </div>   
+                </div>
             </div>
             <br>
         </div>
@@ -148,6 +155,13 @@
             <h2>Layout</h2>
             <div>
                 <h3>Gridsystem</h3>
+                <p>Wir verwenden ein Bootstrap Gridsystem</p>
+                <img src="gridsystem.png" alt="">
+                <p>so werden wir eine navbar erstellen in der die Links zu der Seite sind</p>
+                <p>und zu unterst wird so unser Footer dargestellt</p>
+                <p id="navigationsmenu">Beispiel</p>
+                <img src="gridsystemBeispiel.PNG" alt="">
+                
             </div>
             <br>
         </div>
@@ -155,10 +169,36 @@
             <h2>Bilder</h2>
             <div>
                 <h3>Bildsprache</h3>
+                <p>Die Bilder werden einen Hauptfaktor unserer Webseite sein, daher werden diese im fokus sein und in der Mitte</p>
+                <p>Zu jedem Thema in unserem Blog wird ein Foto oder Video dabei sein.</p>
+                <p id="img media">Beispiel</p>
+                    <pre><code>
+                        img {
+                            width: 100%;
+                          }
+                          
+                          @media (min-width: 25em) {
+                            img {
+                              width: 50%;
+                              float: right;
+                              margin: 0 0 1em 1em;
+                            }
+                          }
+                          
+                          @media (min-width: 50em) {
+                            img {
+                              width: 25%;
+                            }
+                          }
+                    </code></pre>
+                
                 <h3>Icons</h3>
+                <p>Das Icon unserer Webseite wird zu jeder Zeit ersichtlich sein in der Navbar</p>
+                <p>Es soll jedoch nicht den fokus auf sich ziehen und eher im Hintergrund stehen</p>
             </div>
             <br>
         </div>
-    </div>  
+    </div>
 </body>
+
 </html>
