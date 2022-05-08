@@ -4,7 +4,7 @@ h3 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-we
 h4 {text-align: center;margin: -35px 0 25px}
 p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 0px; text-align: justify; text-justify: inter-word; }
 
-#titelbeispiel { 
+.titelbeispiel { 
     color: #dc0000;
     font-family: 'Raleway',sans-serif;
     font-size: 62px; 
@@ -15,7 +15,7 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     text-transform: uppercase;
 }
 
-#untertitelbeispiel { 
+.untertitelbeispiel { 
     color: #dc0000;
     font-family: 'Raleway',sans-serif;
     font-size: 30px;
@@ -25,7 +25,7 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     text-align: left; 
 }
 
-#zwischentitel {
+.zwischentitel {
     color: #dc0000; 
     font-family:"Helvetica Neue",Arial,sans-serif; 
     font-size: 16px; 
@@ -35,7 +35,7 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     font-weight: bold;
 }
 
-#fliesstext {
+.fliesstext {
     color: #000000; 
     font-family:"Helvetica Neue",Arial,sans-serif; 
     font-size: 12px; 
@@ -43,14 +43,14 @@ p { color: #000000; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     line-height: 18px;  
 }
 
-#bildunterschriften {
+.bildunterschriften {
     text-align: left;
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
 }
 
-#navigationsmenu {
+.navigationsmenu {
     color: #706f6f; 
     font-family:"Helvetica Neue",Arial,sans-serif; 
     font-size: 16px; 
