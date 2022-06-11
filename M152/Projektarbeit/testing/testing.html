@@ -19,7 +19,90 @@
 
   <div style="padding-left:16px; margin-top:20px">
 
-    <h2 class="untertitelbeispiel title">Testing</h2>
+    <h1 class="titelbeispiel title">Testing</h2>
+
+    <h2 class="untertitelbeispiel">Funktionale Tests</h3>
+
+    <style type="text/css">
+      .tg  {border-collapse:collapse;border-spacing:0;}
+      .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+      .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+      .tg .tg-0e45{font-size:11px}
+      </style>
+
+    <table class="tg">
+      <tr>
+        <th class="tg-0e45"><h3 class="navigationsmenu">Testfall</h3></th>
+        <th class="tg-0e45"><h3 class="navigationsmenu">Eingabe</h3></th>
+        <th class="tg-0e45"><h3 class="navigationsmenu">Erwartetes Resultat</h3></th>
+        <th class="tg-0e45"><h3 class="navigationsmenu">Bemekrung</h3></th>
+      </tr>
+      <tr>
+        <td class="tg-0e45"><h3 class="zwischentitel">Testfall 1</h3></td>
+        <td class="tg-0e45">Öffnen des Media-Tabs</td>
+        <td class="tg-0e45">Es werden alle drei Bilder geladen.</td>
+        <td class="tg-0e45">Bilder werden geladen, jedoch dauert dies mehrere Sekunden.</td>
+      </tr>
+      <tr>
+        <td class="tg-031e"><h3 class="zwischentitel">Testfall 2</h3></td>
+        <td class="tg-031e">Öffnen des Media-Tabs</td>
+        <td class="tg-031e">Anstelle des WMW-Videos wird eine Fehlermedlung ausgegeben.</td>
+        <td class="tg-0e45">Die Fehlermeldung ist je nach Broweser unterschiedlich.</td>
+      </tr>
+      <tr>
+        <td class="tg-031e"><h3 class="zwischentitel">Testfall 3</h3></td>
+        <td class="tg-031e">Scrollen im Scrollanimation-Tab</td>
+        <td class="tg-031e">Die jeweils untersten zwei Zeihlen haben eine Erscheinanimation.</td>
+        <td class="tg-0e45">Je nach Performance des Browser ist Animatin flüssiger.</td>
+      </tr>
+      <tr>
+        <td class="tg-031e"><h3 class="zwischentitel">Testfall 4</h3></td>
+        <td class="tg-031e">Neuladen der Impressum-Seite</td>
+        <td class="tg-0e45">Der Titel erscheint mit einer Animation</td>
+        <td class="tg-0e45">Test erfolgreich.</td>
+      </tr>
+    </table>
+    <br><br>
+
+    <h2 class="untertitelbeispiel">Browserkompatibilität</h3>
+      <p>In diesem Test wird die Impressum-Seite auf den unten aufgelisteten Broswern geöffnet.</p>
+      <p>Danach wird geprüft, ob alle Inhalte korrekt angezeigt werden und sich wie vorgesehen verhalten.</p>
+      <br>
+
+      <h3 class="zwischentitel">Google Chrome</h3>
+      <p>Testfall erfolgreich.</p>
+      <img src="../imgs/testfall-googlechrome.PNG" alt="Testfall-Google-Chrome-Bild" width="35%">
+      <p class="bildunterschriften">Bild von unserer Webseite in Google Chrome, von Fabian Müller</p>
+      <br>
+
+      <h3 class="zwischentitel">Firefox</h3>
+      <p>Testfall erfolgreich.</p>
+      <img src="../imgs/testfall-firefox.PNG" alt="Testfall-Firefox-Bild" width="35%">
+      <p class="bildunterschriften">Bild von unserer Webseite in Firefox, von Fabian Müller</p>
+      <br>
+
+      <h3 class="zwischentitel">Edge</h3>
+      <p>Testfall erfolgreich.</p>
+      <img src="../imgs/testfall-edge.PNG" alt="Testfall-Edge-Bild" width="35%">
+      <p class="bildunterschriften">Bild von unserer Webseite in Edge, von Fabian Müller</p>
+      <br><br>
+
+      <h2 class="untertitelbeispiel">Responsivness Test</h3>
+      <p>In diesem Test wird die Impressum Seite in verschiedenen Auflösungen geöffnet.</p>
+      <p>Erwartet wird, dass der Inhalt der Seite trotz anderer Auflösung korrekt dargestellt wird.</p>
+      <br>
+
+      <h3 class="zwischentitel">IPad Air(820x1180)</h3>
+      <p>Testfall erfolgreich.</p>
+      <img src="../imgs/testfall-ipadair.PNG" alt="Testfall-Firefox-Bild" width="35%">
+      <p class="bildunterschriften">Bild von unserer Webseite in Google Chrome Entwicklertool in Auflösung 820x1180 Pixeln, von Fabian Müller</p>
+      <br>
+
+      <h3 class="zwischentitel">iPhone XR(414x896)</h3>
+      <p>Testfall erfolgreich.</p>
+      <img src="../imgs/testfall-iphonexr.PNG" alt="Testfall-Edge-Bild" max-width="35%">
+      <p class="bildunterschriften">Bild von unserer Webseite in Google Chrome Entwicklertool in Auflösung 414x869 Pixeln, von Fabian Müller</p>
+      <br>
  
     <footer class="footer">
       <div class="footer__addr">
@@ -38,35 +121,6 @@
         <p>(c) 2022 Fabian & Mauro
 
         </p>
-        <svg width="100%" height="100%" style=" height: 35em">
-          <circle cx="100" cy="100" r="30" fill="rgb(39, 198, 162)">
-              <animate attributeName="cx" from="0" to="100%" dur="3s" repeatCount="indefinite"/>
-              <animate id="pulse" attributeName="r" values="30;10;30" dur="1s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="100" cy="100" r="30" fill="rgb(39, 198, 162)">
-              <animate attributeName="cx" from="100%" to="0" dur="3s" repeatCount="indefinite"/>
-              <animate id="pulse" attributeName="r" values="30;10;30" dur="1s" repeatCount="indefinite"/>
-          </circle>
-      
-          <circle cx="100" cy="150" r="30" fill="rgb(251, 73, 83)">
-              <animate attributeName="cx" from="0" to="100%" dur="2s" repeatCount="indefinite"/>
-              <animate id="pulse" attributeName="r" values="20;5;20" dur="1s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="100" cy="150" r="30" fill="rgb(251, 73, 83)">
-              <animate attributeName="cx" from="100%" to="0" dur="2s" repeatCount="indefinite"/>
-              <animate id="pulse" attributeName="r" values="20;5;20" dur="1s" repeatCount="indefinite"/>
-          </circle>
-      
-              <circle cx="100" cy="200" r="30" fill="rgb(249, 195, 89)">
-                  <animate attributeName="cx" from="0" to="100%" dur="1s" repeatCount="indefinite"/>
-                  <animate id="pulse" attributeName="r" values="15;3;15" dur="1s" repeatCount="indefinite"/>
-              </circle>
-              <circle cx="100" cy="200" r="30" fill="rgb(249, 195, 89)">
-                  <animate attributeName="cx" from="100%" to="0" dur="1s" repeatCount="indefinite"/>
-                  <animate id="pulse" attributeName="r" values="15;3;15" dur="1s" repeatCount="indefinite"/>
-              </circle>
-      </svg>
-
         <div class="legal__links">
           <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
         </div>
